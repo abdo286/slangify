@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "@/components/Navbar";
 import ContextProvider from "@/providers/ContextProvider";
 import TopNavbar from "@/components/TopNavbar";
+import Footer from "@/components/Footer";
 
 const roboto = Roboto({
   subsets: ["latin"],
@@ -23,11 +24,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={roboto.className}>
+      <body
+        className={`${roboto.className} grid min-h-screen grid-rows-[auto_1fr_auto]`}
+      >
         <ContextProvider>
-          <TopNavbar />
-          <Navbar />
+          <div>
+            <TopNavbar />
+            <Navbar />
+          </div>
           {children}
+          <div className="mt-12">
+            <Footer />
+          </div>
         </ContextProvider>
       </body>
     </html>
