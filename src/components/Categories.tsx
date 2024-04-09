@@ -1,15 +1,14 @@
 import Category from "@/components/Category";
-import { FaBowlFood } from "react-icons/fa6";
-import { IoBusinessOutline } from "react-icons/io5";
-import { GiMaterialsScience } from "react-icons/gi";
 import { FaBuilding } from "react-icons/fa";
 import { GiHotMeal, GiTestTubes } from "react-icons/gi";
 
 const Categories = () => {
   return (
     <>
-      <h2 className="text-lg font-bold">By Categories</h2>
-      <div className="mt-[12px] flex items-center gap-5">
+      <h2 className="text-lg font-bold sm:text-center lg:mt-16 lg:text-xl">
+        By Categories
+      </h2>
+      <div className="mt-[12px] flex flex-wrap items-center justify-center gap-5">
         <Category
           name="Business"
           Icon={FaBuilding}

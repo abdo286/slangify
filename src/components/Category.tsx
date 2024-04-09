@@ -17,7 +17,7 @@ const Category: React.FC<CategoryProps> = ({
   return (
     <div
       className={cn(
-        "flex w-fit cursor-pointer items-center gap-2 rounded-md bg-yellow-400 px-2 py-1 text-sm",
+        "flex w-fit cursor-pointer items-center gap-2 rounded-md bg-yellow-400 px-2 py-1 text-sm lg:text-base",
         className,
       )}
     >

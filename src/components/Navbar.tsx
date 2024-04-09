@@ -9,7 +9,7 @@ const Navbar = () => {
   const { isOpen, closeModal, openModal } = useModal();
   return (
     <nav className="flex items-center gap-3 pl-3 pr-2 pt-3" id="navbar">
-      <button className=" cursor-pointer" onClick={openModal}>
+      <button className="cursor-pointer md:hidden" onClick={openModal}>
         <Image src={Menu} alt="Menu" width={50} height={50} />
       </button>
 

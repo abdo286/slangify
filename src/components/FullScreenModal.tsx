@@ -43,7 +43,7 @@ const FullScreenModal: React.FC<FullScreenModalProps> = ({
     <Modal
       isOpen={isOpen}
       onRequestClose={onClose}
-      className="fixed bottom-0 left-0 top-0 z-[999] grid w-screen grid-cols-[80fr_20fr] bg-white"
+      className="fixed bottom-0 left-0 top-0 z-[999] grid w-screen grid-cols-[80fr_20fr] sm:grid-cols-[60fr_40fr] bg-white"
       overlayClassName="fixed top-0 left-0 right-0 bottom-0 opacity-100 backdrop-blur-sm"
       closeTimeoutMS={30}
       ariaHideApp={false}

@@ -28,7 +28,7 @@ const SearchSuggestions: React.FC<SearchSuggestionsProps> = ({
   };
 
   return (
-    <div className="absolute left-0 top-full z-1 w-full border border-gray-200 bg-white shadow-md ">
+    <div className="absolute left-0 top-full z-1 w-full border border-gray-200 bg-white shadow-md text-sm">
       {suggestions.map((suggestion, index) => (
         <button
           key={index}
