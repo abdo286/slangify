@@ -8,7 +8,7 @@ const Footer = () => {
         {/* Section 1 */}
         <div>
           <h4 className="mb-4 text-lg font-semibold">Explore</h4>
-          <ul>
+          <ul className="flex flex-col gap-2">
             <li>
               <Link href="/">Home</Link>
             </li>
@@ -28,7 +28,7 @@ const Footer = () => {
         {/* Section 2 */}
         <div>
           <h4 className="mb-4 text-lg font-semibold">Categories</h4>
-          <ul>
+          <ul className="flex flex-col gap-2">
             <li>
               <Link href="/slang-words">Slang Words</Link>
             </li>

@@ -12,7 +12,7 @@ const TopNavbar = () => {
         Slangy
       </Link>
 
-      <div className="hidden gap-3 md:flex">
+      <div className="hidden gap-3 md:flex xl:gap-5">
         {links.map((link, index) => (
           <Link href={link.href} key={link.text}>
             <div

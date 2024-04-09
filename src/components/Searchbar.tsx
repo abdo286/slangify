@@ -31,7 +31,7 @@ const Searchbar = () => {
   }, []);
 
   return (
-    <div className="relative w-full lg:w-[80%] mx-auto xl:w-[70%]">
+    <div className="relative w-full lg:w-[80%] mx-auto xl:w-[70%] 2xl:w-[60%]">
       <form className="flex rounded-md border border-input bg-background">
         <Input
           type="text"
